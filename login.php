@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
 </head>
 <body class="bg-light"> 
-         <div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="card shadow-lg p-4" style="width: 25rem;">
       <h4 class="text-center mb-4">Login</h4>
       <form action="cek_login.php" method="POST">

@@ -47,14 +47,14 @@ $result = mysqli_query($conn, "SELECT * FROM buku ORDER BY created_at DESC");
                                 <?php if ($row['gambar']) { ?>
                                 <img src="uploads/<?= $row['gambar'] ?>" width="60">
                                 <?php } ?>
-                                </td>
+                            </td>
                                 <td><?= $row['deskripsi'] ?></td>
                                 <td><?= $row['created_at'] ?></td>
                                 <td><?= $row['updated_at'] ?></td>
                                 <td>
                                 <a class="btn btn-success" href="form_edit.php?id=<?= $row['id'] ?>">Edit</a>
                                 <a class="btn btn-danger" href="hapus_buku.php?id=<?= $row['id'] ?>">Hapus</a>
-                              </td>
+                            </td>
                             </tr>
                             <?php } ?>  
                     </table>

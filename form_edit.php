@@ -15,7 +15,7 @@ $data = mysqli_fetch_assoc($result);
 </head>
 <body>
   <div class="container">
-    <div class="card p-4 mt-5 shadow-sm">
+    <div class="card p-4 mt-5 shadow-sm w-50 shadow-lg mx-auto">
       <h3 class="mb-4 text-center">Edit Data Buku</h3>
 
       <form action="edit_buku.php" method="POST" enctype="multipart/form-data">
